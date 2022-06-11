@@ -104,6 +104,8 @@ header .container {
   padding: 1rem 1rem;
   display: inline-block;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 /* MINT WINDOW */

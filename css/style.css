@@ -80,6 +80,8 @@ header .container {
   position: right;
   text-decoration: none;
   outline: none;
+  position: absolute;
+  right: 10px;
 }
 .btn:hover {
   box-shadow: none;
@@ -91,9 +93,7 @@ header .container {
   border-radius: 2rem;
   margin-left: 2rem;
   border-color: transparent;
-  position: absolute;
-  right: 10px;
-}
+  }
 
 .hero-btn {
   border-radius: 50px;

@@ -1,18 +1,18 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --font-primary: 'Cinzel', sans-serif;
+  --font-secondary: 'Cinzel', serif;
+  --font-code: 'Cinzel', monospace;
+  --bg-color: #1A1A1A;
+  --font-color: #F2F2F2;
+  --btn-bg-color: #F2F2F2;
+  --accent-color: #F15A24;
+  --header-shadow: #1A1A1A 0px 0px 5px;
 }
 
 * {
@@ -56,40 +56,61 @@ header .container {
   align-items: center;
 }
 
+.menu:hover {
+  box-shadow: none;
+  color: var(--accent-color);
+}
+
+
+
+
 /* BUTTONS */
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
+  padding: 1rem 1rem;
+  background: var(--accent-color);
+  color: var(--bg-color);
   font-family: var(--font-secondary);
-  font-style: italic;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
   cursor: pointer;
-  position: relative;
+  position: right;
   text-decoration: none;
   outline: none;
 }
 .btn:hover {
   box-shadow: none;
+  background: var(--btn-bg-color);
+  color: var(--accent-color);
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 2rem;
   margin-left: 2rem;
   border-color: transparent;
 }
 
 .hero-btn {
-  border-radius: 4px;
+  border-radius: 25px;
   font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  padding: 1rem 1rem;
+  display: inline-block;
 }
+
+/* MINT WINDOW */
+
+.mint-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: inline-block;
+}
+
 
 /* COUNTDOWN SECTION */
 
@@ -107,7 +128,7 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 1rem
 }
 .countdown .clock-item {
   list-style: none;
@@ -116,7 +137,7 @@ section {
 }
 .countdown .clock-item .count-number {
   background: var(--accent-color);
-  color: var(--font-color);
+  color: var(--bg-color);
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -141,8 +162,8 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  color: var(--accent-color);
+  font-style: normal;
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
@@ -166,7 +187,7 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
+    gap: 5rem;
   }
   .wallet-btn {
     margin-left: 0;

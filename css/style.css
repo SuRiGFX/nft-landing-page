@@ -61,6 +61,7 @@ header .container {
 .menu:hover {
   box-shadow: none;
   color: var(--accent-color);
+  size: 1.2;
 }
 
 

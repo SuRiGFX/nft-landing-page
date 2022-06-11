@@ -170,7 +170,7 @@ section {
   text-align: center;
   line-height: 1;
   border-radius: 0 0 4px 4px;
-  border:#1A1A1A 2px;
+  border:2px var(--bg-color);
 }
 
 .countdown h1 {

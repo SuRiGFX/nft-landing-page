@@ -145,7 +145,7 @@ section {
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--bg-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--font-secondary);
   padding: 1rem;
@@ -159,6 +159,7 @@ section {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
   font-size: 1.1rem;
+  font-weight: 500;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
   display: inline-block;

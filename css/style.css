@@ -91,6 +91,8 @@ header .container {
   border-radius: 2rem;
   margin-left: 2rem;
   border-color: transparent;
+  position: absolute;
+  right: 10px;
 }
 
 .hero-btn {

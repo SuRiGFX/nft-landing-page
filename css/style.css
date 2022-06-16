@@ -239,18 +239,17 @@ section {
 
 .Previews {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   display: inline-block;
   align-items: center;
   position: relative;
+  max-width: 768px;  
   height: 100%;
-  padding: 50;
+
 }
 
 .Previews ul {
   display: flex;
-  display: inline;
   gap: 5rem
 }
 .Previews h1 {

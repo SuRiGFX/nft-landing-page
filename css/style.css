@@ -56,14 +56,39 @@ header .container {
   align-items: center;
   position: relative;
   right: 30px;
+
+  padding: 1rem 1rem;
+  color: var(--bg-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  
+  
 }
 
 .menu:hover {
   box-shadow: none;
-  color: var(--accent-color);
-  size: 1.2;
+  color: var(--btn-bg-color);
+  size: 1;
 }
 
+/* Menu */
+
+.social {
+  display: inline-block;
+  padding: 1rem 1rem;
+  /* background: var(--accent-color); */
+  color: var(--bg-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: right;
+  right: 5px;
+}
+.social:hover {
+  box-shadow: none;
+  /* background: var(--btn-bg-color); */
+  color: var(--accent-color);
+}
 
 
 

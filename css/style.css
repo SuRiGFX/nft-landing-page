@@ -76,7 +76,7 @@ header .container {
 
 .social {
   display: listitem;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
   /* background: var(--accent-color); */
   /* color: var(--bg-color); */
   transition: all 0.3s ease;

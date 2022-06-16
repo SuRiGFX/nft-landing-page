@@ -37,6 +37,8 @@ body {
   margin: 0 auto;
   padding: 2rem 2rem;
   position: relative;
+  font-weight: bold;
+  font-size: 1.2rem;
 
 }
 
@@ -57,7 +59,7 @@ header .container {
   gap: 2rem;
   align-items: center;
   position: relative;
-  right: 30px;
+  right: auto;
 
   padding: 1rem 1rem;
   color: var(--bg-color);
@@ -79,13 +81,13 @@ header .container {
 .social {
   
   display: inline-block;
-  /* padding: 1rem 1rem; */
+  padding: 1rem 1rem;
   /* background: var(--accent-color); */
   /* color: var(--bg-color); */
   transition: all 0.3s ease;
   cursor: pointer;
-  position: right;
-  right: 5px;
+  position: relative;
+  right: 0px;
 }
 .social:hover {
   box-shadow: none;
@@ -168,11 +170,11 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 1rem
+  gap: 2rem
 }
 .countdown .clock-item {
   list-style: none;
-  width: 70px;
+  width: 120px;
   height: auto;
 }
 .countdown .clock-item .count-number {
@@ -186,20 +188,20 @@ section {
   width: 100%;
   text-align: center;
   line-height: 1;
-  border-radius: 4px 4px 0 0;
+  border-radius: 24px 24px 0 0;
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--bg-color);
-  padding: 0.5rem 0.7rem;
+  padding: 0.8rem 1rem;
   display: inline-block;
   width: 100%;
   text-align: center;
   line-height: 1;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 24px 24px;
   border:2px var(--bg-color);
 }
 

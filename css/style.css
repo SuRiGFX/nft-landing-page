@@ -82,6 +82,7 @@ header .container {
   transition: all 0.3s ease;
   cursor: pointer;
   position: right;
+  size-adjust: 1.2px;
   right: 5px;
 }
 .social:hover {

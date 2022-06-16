@@ -75,7 +75,7 @@ header .container {
 /* Menu */
 
 .social {
-  display: inline-block;
+  display: listitem;
   padding: 1rem 1rem;
   /* background: var(--accent-color); */
   /* color: var(--bg-color); */

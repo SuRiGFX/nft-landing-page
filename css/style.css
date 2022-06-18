@@ -237,28 +237,30 @@ section {
   flex: 1 1 auto;
 }
 
-.Previews {
+.previews {
   display: flex;
-  flex-direction: row;
-  display: inline-block;
+  flex-direction: column;
+  justify-content: normal;
   align-items: center;
   position: relative;
-  max-width: 768px;  
   height: 100%;
-
+  padding: 20px;
+  
 }
 
-.Previews ul {
-  display: flex;
-  gap: 5rem
-}
-.Previews h1 {
+.previews h1 {
   color: var(--accent-color);
+  justify-content: normal;
   font-style: normal;
-  margin: 5rem 0;
+  margin: 2rem 0;
   font-size: 3.5rem;
-  text-align: center;
+  text-align: justify;
+ 
 }
+
+
+
+
 
 /* MEDIA QUERIES */
 

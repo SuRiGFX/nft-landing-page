@@ -99,6 +99,7 @@ header .container {
   border-radius: 5rem;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
+ 
 
 
  
@@ -109,8 +110,9 @@ header .container {
   box-shadow: none;
   border-radius: 2rem;
   size-adjust: auto;
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
   /* color: var(--accent-color); */
+  transform: scale(1.2);
 }
 
 
@@ -145,6 +147,13 @@ header .container {
   border-color: transparent;
   }
 
+  .wallet-btn:hover{
+    transform: scale(1.1);
+
+    }
+
+
+
 .hero-btn {
   border-radius: 1px;
   font-size: 1.2rem;
@@ -167,6 +176,7 @@ header .container {
   display: inline-block;
   position: static;
   right: 0px;
+  width: 400hh;
 }
 
 
@@ -254,8 +264,6 @@ previews {
   box-shadow: var(--header-shadow);
 }
 
-
-
 .previews {
   display: flex;
   flex-direction: column;
@@ -263,8 +271,7 @@ previews {
   align-items: center;
   position: relative;
   height: 100%;
-  padding: 20px;
-  
+  padding: 20px;  
 }
 
 .previews h1 {
@@ -274,10 +281,16 @@ previews {
   white-space: break-spaces;
   margin: 2rem 0;
   font-size: 2.5rem;
-  text-align: justify;
- 
+  text-align: justify; 
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* FOOTER */
 

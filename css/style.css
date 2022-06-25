@@ -292,10 +292,11 @@ previews {
   position: relative;
   height: 100%;
   padding: 10px;  
+  
 }
 
 .pfp:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   }
 
 /* FOOTER */

@@ -319,6 +319,11 @@ footer .container {
 }
 
 
+/* Dotted red border */
+hr.new {
+  border-top: 1px solid #F15A24;
+}
+
 
 
 

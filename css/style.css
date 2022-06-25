@@ -287,6 +287,17 @@ previews {
   margin-right: auto;
 }
 
+.pfp {
+  align-items: center;
+  position: relative;
+  height: 100%;
+  padding: 10px;  
+}
+
+.pfp:hover {
+  transform: scale(1.2);
+  }
+
 /* FOOTER */
 
 footer {

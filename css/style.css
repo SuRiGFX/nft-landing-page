@@ -290,7 +290,7 @@ previews {
 /* FOOTER */
 
 footer {
-  /* box-shadow: var(--footer-shadow); */
+  box-shadow: none;
 }
 
 footer .container {

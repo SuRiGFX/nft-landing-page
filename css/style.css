@@ -43,8 +43,6 @@ body {
   position: relative;
   font-weight: bold;
   font-size: 1.5rem;
-  
-
 }
 
 /* HEADER */
@@ -155,6 +153,19 @@ header .container {
 
 
 /* MINT WINDOW */
+
+.mintblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 
 .mint-window {
   display: flex;

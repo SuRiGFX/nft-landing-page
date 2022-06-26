@@ -287,8 +287,10 @@ section {
 .pfp {
   align-items: center;
   position: relative;
-  height: 100%;
-  padding: 10px;  
+  width: auto;
+  padding: 15px;  
+  margin-left: auto;
+  margin-right: auto;
   
 }
 

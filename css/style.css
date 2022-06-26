@@ -256,10 +256,6 @@ section {
 
 /* Previews */
 
-previews {
-  box-shadow: var(--header-shadow);
-}
-
 .previews {
   display: flex;
   flex-direction: column;

@@ -263,8 +263,8 @@ section {
   align-items: center;
   position: relative;
   height: 100%;
-  padding: 20px;  
-}
+  padding: 20px; 
+  }
 
 .previews h1 {
   color: var(--accent-color);

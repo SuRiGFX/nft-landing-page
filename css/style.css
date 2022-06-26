@@ -154,19 +154,6 @@ header .container {
 
 /* MINT WINDOW */
 
-.mintblock {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: auto;
-  margin: 0 auto;
-  padding: 2rem 2rem;
-  position: relative;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-
 .mint-window {
   display: flex;
   flex-direction: column;

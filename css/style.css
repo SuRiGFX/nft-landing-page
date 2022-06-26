@@ -103,14 +103,6 @@ header .container {
   transform: scale(1.2);
 }
 
-.hide {
-  display: none;
-}
-
-.social:hover + .hide {
-  display: block;
-  color: #F15A24;
-}
 
 /* BUTTONS */
 

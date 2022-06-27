@@ -12,7 +12,7 @@
   --font-color: #F2F2F2;
   --btn-bg-color: #F2F2F2;
   --accent-color: #F15A24;
-  --header-shadow: #F15A24 0px 0px 10px;
+  --header-shadow: #F15A24 0px 0px 0px;
   --footer-shadow: #F15A24 0px 0px 0px;
 
 }
@@ -63,7 +63,7 @@ header .container {
   align-items: center;
   position: absolute;
   /* right: auto; */
-  padding: 5rem 5rem;
+  padding: 2rem 2rem;
   color: var(--bg-color);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -232,15 +232,15 @@ section {
 .countdown h1 {
   color: var(--accent-color);
   font-style: normal;
-  margin: 2rem 0;
-  font-size: 3.5rem;
+  margin: 0rem 0;
+  font-size: 4.5rem;
   text-align: center;
 }
 
 .countdown p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   text-align: center;
 }
 

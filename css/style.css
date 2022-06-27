@@ -236,6 +236,13 @@ section {
   font-size: 4.5rem;
   text-align: center;
 }
+.countdown h2 {
+  color: var(--accent-color);
+  font-style: normal;
+  margin: 0rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
 
 .countdown p {
   font-size: 1.1rem;

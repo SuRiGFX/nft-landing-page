@@ -13,7 +13,7 @@
   --btn-bg-color: #F2F2F2;
   --accent-color: #F15A24;
   --header-shadow: #F15A24 0px 0px 0px;
-  --footer-shadow: #F15A24 0px 0px 2px;
+  --footer-shadow: #F15A24 0px 0px 0px;
 
 }
 
@@ -39,7 +39,7 @@ body {
   justify-content: center;
   max-width: auto;
   margin: 0 auto;
-  padding: 1rem 1rem;
+  padding: 3rem 3rem;
   position: relative;
   font-weight: bold;
   font-size: 1.5rem;
@@ -154,6 +154,17 @@ header .container {
 
 /* MINT WINDOW */
 
+.mintcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: auto;
+  margin: 0 0;
+  padding: 0rem 0rem;
+  position: relative;
+ 
+}
+
 .mint-window {
   display: flex;
   flex-direction: column;
@@ -165,7 +176,6 @@ header .container {
   right: 0px;
   width: 500hh;
 }
-
 
 /* COUNTDOWN SECTION */
 
